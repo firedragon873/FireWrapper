@@ -8,7 +8,7 @@
 
 import Alamofire
 
-enum ErrorType: String {
+public enum ErrorType: String {
     case noConnection   = "fire_wrapper_no_connection_error"
     case slowConnection = "fire_wrapper_slow_connection_error"
     case invalidFormat  = "fire_wrapper_invalid_format_error"

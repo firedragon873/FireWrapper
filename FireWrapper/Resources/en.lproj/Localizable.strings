@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  FireWrapper
+
+  Created by sequenia on 23/11/2018.
+  Copyright © 2018 Sequenia. All rights reserved.
+*/
+
+"fire_wrapper_no_connection_error"   = "Couldn'n connect to server";
+"fire_wrapper_slow_connection_error" = "Slow connection";
+"fire_wrapper_internal_server_error" = "Internal server error";
+"fire_wrapper_invalid_format_error"  = "Unrecognized response";
+

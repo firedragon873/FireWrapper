@@ -77,9 +77,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files = "FireWrapper/**/*.{swift}"
-
-  # s.public_header_files = "Classes/**/*.h"
+  s.source_files = "FireWrapper/Sources/**/*.{swift}"
+  s.public_header_files = "FireWrapper/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,8 +90,12 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
-
+  s.resources = "FireWrapper/Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
+  s.resource_bundles = {
+      'FireWrapper' => [
+        'FireWrapper/Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}'
+      ]
+  }
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
@@ -125,5 +128,6 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 
   s.swift_version = "4.2"
+  s.module_name = 'FireWrapper'
 
 end

@@ -9,7 +9,7 @@
 import Alamofire
 import SwiftyJSON
 
-enum ResponseKey: String {
+public enum ResponseKey: String {
     case success = "success"
     case error   = "error"
     case errors  = "errors"
@@ -54,9 +54,11 @@ extension DataRequest {
             
             guard response.result.isSuccess,
                 let value = response.result.value else {
-                    let message = response.result.error?.fw_errorMessage() ?? ErrorType.internalServer
+                    let message = response.result.error?.fw_errorMessage().rawValue ?? ErrorType.internalServer.rawValue
+                    
                     print("Request failed with error: \(String(describing: response.result.error))")
-                    completion(nil, message.rawValue, nil)
+                    
+                    completion(nil, message, nil)
                     return
             }
             

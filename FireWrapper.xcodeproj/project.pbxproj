@@ -7,26 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		805AF6F221A79B4600FD4898 /* FireWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805AF6E821A79B4600FD4898 /* FireWrapper.framework */; };
-		805AF6F721A79B4600FD4898 /* FireWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805AF6F621A79B4600FD4898 /* FireWrapperTests.swift */; };
 		805AF6F921A79B4600FD4898 /* FireWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 805AF6EB21A79B4600FD4898 /* FireWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		805AF71121A8055400FD4898 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805AF70C21A8055400FD4898 /* Router.swift */; };
 		805AF71221A8055400FD4898 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805AF70D21A8055400FD4898 /* NetworkHelper.swift */; };
 		805AF71321A8055400FD4898 /* Alamofire+FireWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805AF70F21A8055400FD4898 /* Alamofire+FireWrapper.swift */; };
 		805AF71421A8055400FD4898 /* Error+FireWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805AF71021A8055400FD4898 /* Error+FireWrapper.swift */; };
+		805AF71B21A8134400FD4898 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 805AF71D21A8134400FD4898 /* Localizable.strings */; };
 		8B875F5951DE76C9A798717F /* Pods_FireWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFE4C4BA85CE38F9D7F798E /* Pods_FireWrapper.framework */; };
-		EA5A5DE2F588F59FA92E17EB /* Pods_FireWrapperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770BE1305A49D1B526E391C9 /* Pods_FireWrapperTests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		805AF6F321A79B4600FD4898 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 805AF6DF21A79B4600FD4898 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 805AF6E721A79B4600FD4898;
-			remoteInfo = FireWrapper;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		56F4DFACDFC4ADA41B11F7A7 /* Pods-FireWrapperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireWrapperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireWrapperTests/Pods-FireWrapperTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -35,13 +23,14 @@
 		805AF6E821A79B4600FD4898 /* FireWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FireWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		805AF6EB21A79B4600FD4898 /* FireWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FireWrapper.h; sourceTree = "<group>"; };
 		805AF6EC21A79B4600FD4898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		805AF6F121A79B4600FD4898 /* FireWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		805AF6F621A79B4600FD4898 /* FireWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireWrapperTests.swift; sourceTree = "<group>"; };
 		805AF6F821A79B4600FD4898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		805AF70C21A8055400FD4898 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		805AF70D21A8055400FD4898 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		805AF70F21A8055400FD4898 /* Alamofire+FireWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+FireWrapper.swift"; sourceTree = "<group>"; };
 		805AF71021A8055400FD4898 /* Error+FireWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+FireWrapper.swift"; sourceTree = "<group>"; };
+		805AF71C21A8134400FD4898 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		805AF71E21A8135200FD4898 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AD2A4210E54DABCB5AB080D2 /* Pods-FireWrapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireWrapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireWrapper/Pods-FireWrapper.release.xcconfig"; sourceTree = "<group>"; };
 		F405E6DCD7DF7BFCAA7AC402 /* Pods-FireWrapperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireWrapperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireWrapperTests/Pods-FireWrapperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FFDD2315EAB3C468B0DF63AF /* Pods-FireWrapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireWrapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireWrapper/Pods-FireWrapper.debug.xcconfig"; sourceTree = "<group>"; };
@@ -53,15 +42,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B875F5951DE76C9A798717F /* Pods_FireWrapper.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		805AF6EE21A79B4600FD4898 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				805AF6F221A79B4600FD4898 /* FireWrapper.framework in Frameworks */,
-				EA5A5DE2F588F59FA92E17EB /* Pods_FireWrapperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				805AF6E821A79B4600FD4898 /* FireWrapper.framework */,
-				805AF6F121A79B4600FD4898 /* FireWrapperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,9 +81,8 @@
 		805AF6EA21A79B4600FD4898 /* FireWrapper */ = {
 			isa = PBXGroup;
 			children = (
-				805AF70E21A8055400FD4898 /* Extensions */,
-				805AF70D21A8055400FD4898 /* NetworkHelper.swift */,
-				805AF70C21A8055400FD4898 /* Router.swift */,
+				805AF71721A80F4E00FD4898 /* Sources */,
+				805AF71A21A80FCC00FD4898 /* Resources */,
 				805AF6EB21A79B4600FD4898 /* FireWrapper.h */,
 				805AF6EC21A79B4600FD4898 /* Info.plist */,
 			);
@@ -127,6 +105,24 @@
 				805AF71021A8055400FD4898 /* Error+FireWrapper.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		805AF71721A80F4E00FD4898 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				805AF70E21A8055400FD4898 /* Extensions */,
+				805AF70D21A8055400FD4898 /* NetworkHelper.swift */,
+				805AF70C21A8055400FD4898 /* Router.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		805AF71A21A80FCC00FD4898 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				805AF71D21A8134400FD4898 /* Localizable.strings */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		BFAF46AEF3B088E72695E9DE /* Frameworks */ = {
@@ -171,26 +167,6 @@
 			productReference = 805AF6E821A79B4600FD4898 /* FireWrapper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		805AF6F021A79B4600FD4898 /* FireWrapperTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 805AF6FF21A79B4600FD4898 /* Build configuration list for PBXNativeTarget "FireWrapperTests" */;
-			buildPhases = (
-				5B7A2F40D3AF929A4223F36E /* [CP] Check Pods Manifest.lock */,
-				805AF6ED21A79B4600FD4898 /* Sources */,
-				805AF6EE21A79B4600FD4898 /* Frameworks */,
-				805AF6EF21A79B4600FD4898 /* Resources */,
-				FB92CCB5BA52C4D043356C1D /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				805AF6F421A79B4600FD4898 /* PBXTargetDependency */,
-			);
-			name = FireWrapperTests;
-			productName = FireWrapperTests;
-			productReference = 805AF6F121A79B4600FD4898 /* FireWrapperTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,9 +181,6 @@
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
 					};
-					805AF6F021A79B4600FD4898 = {
-						CreatedOnToolsVersion = 10.1;
-					};
 				};
 			};
 			buildConfigurationList = 805AF6E221A79B4600FD4898 /* Build configuration list for PBXProject "FireWrapper" */;
@@ -216,6 +189,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ru,
 			);
 			mainGroup = 805AF6DE21A79B4600FD4898;
 			productRefGroup = 805AF6E921A79B4600FD4898 /* Products */;
@@ -223,7 +197,6 @@
 			projectRoot = "";
 			targets = (
 				805AF6E721A79B4600FD4898 /* FireWrapper */,
-				805AF6F021A79B4600FD4898 /* FireWrapperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,37 +206,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		805AF6EF21A79B4600FD4898 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				805AF71B21A8134400FD4898 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5B7A2F40D3AF929A4223F36E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FireWrapperTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		85D906AC8C1DB2B3CB5E88E8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,28 +231,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FB92CCB5BA52C4D043356C1D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FireWrapperTests/Pods-FireWrapperTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireWrapperTests/Pods-FireWrapperTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -318,29 +245,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		805AF6ED21A79B4600FD4898 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				805AF6F721A79B4600FD4898 /* FireWrapperTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		805AF6F421A79B4600FD4898 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 805AF6E721A79B4600FD4898 /* FireWrapper */;
-			targetProxy = 805AF6F321A79B4600FD4898 /* PBXContainerItemProxy */;
+/* Begin PBXVariantGroup section */
+		805AF71D21A8134400FD4898 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805AF71C21A8134400FD4898 /* en */,
+				805AF71E21A8135200FD4898 /* ru */,
+			);
+			name = Localizable.strings;
+			path = FireWrapper/Resources;
+			sourceTree = SOURCE_ROOT;
 		};
-/* End PBXTargetDependency section */
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		805AF6FA21A79B4600FD4898 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -405,6 +330,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -479,6 +405,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sequenia.firewrapper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -516,46 +443,6 @@
 			};
 			name = Release;
 		};
-		805AF70021A79B4600FD4898 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F405E6DCD7DF7BFCAA7AC402 /* Pods-FireWrapperTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4XJM4GSZPH;
-				INFOPLIST_FILE = FireWrapperTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = sequenia.FireWrapperTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		805AF70121A79B4600FD4898 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56F4DFACDFC4ADA41B11F7A7 /* Pods-FireWrapperTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4XJM4GSZPH;
-				INFOPLIST_FILE = FireWrapperTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = sequenia.FireWrapperTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -573,15 +460,6 @@
 			buildConfigurations = (
 				805AF6FD21A79B4600FD4898 /* Debug */,
 				805AF6FE21A79B4600FD4898 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		805AF6FF21A79B4600FD4898 /* Build configuration list for PBXNativeTarget "FireWrapperTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				805AF70021A79B4600FD4898 /* Debug */,
-				805AF70121A79B4600FD4898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

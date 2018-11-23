@@ -10,9 +10,4 @@ target 'FireWrapper' do
   pod 'AlamofireImage', '~> 3.4'
   pod 'SwiftyJSON', '~> 4.0'
 
-  target 'FireWrapperTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end

@@ -8,11 +8,11 @@
 
 import UIKit
 
-class NetworkHelper: NSObject {
+public class NetworkHelper: NSObject {
 
     static private var numberOfCallsIndicator: Int = 0
     
-    static func setActivityIndicatorVisibility(_ visible: Bool) {
+    static public func setActivityIndicatorVisibility(_ visible: Bool) {
         if visible {
             numberOfCallsIndicator += 1
         }

@@ -8,17 +8,17 @@
 
 import Alamofire
 
-enum HTTPHeaderField: String {
+public enum HTTPHeaderField: String {
     case contentType = "Content-Type"
     case acceptType  = "Accept"
     case xAuthToken  = "X-Auth-Token"
 }
 
-enum ContentType: String {
+public enum ContentType: String {
     case json = "application/json"
 }
 
-protocol Router: URLRequestConvertible {
+public protocol Router: URLRequestConvertible {
     
     var baseURL:     String            { get }
     var timeout:     TimeInterval      { get }
@@ -35,7 +35,7 @@ protocol Router: URLRequestConvertible {
 
 extension Router {
     
-    func asURLRequest() throws -> URLRequest {
+    public func asURLRequest() throws -> URLRequest {
         let urlString = String.init(format: "%@%@", self.baseURL, self.path)
         
         var urlComponents = URLComponents(string: urlString)!
