@@ -10,6 +10,12 @@
 		805AF6F221A79B4600FD4898 /* FireWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805AF6E821A79B4600FD4898 /* FireWrapper.framework */; };
 		805AF6F721A79B4600FD4898 /* FireWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805AF6F621A79B4600FD4898 /* FireWrapperTests.swift */; };
 		805AF6F921A79B4600FD4898 /* FireWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 805AF6EB21A79B4600FD4898 /* FireWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		805AF70721A79EC800FD4898 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805AF70221A79EC800FD4898 /* Router.swift */; };
+		805AF70821A79EC800FD4898 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805AF70321A79EC800FD4898 /* NetworkHelper.swift */; };
+		805AF70921A79EC800FD4898 /* Alamofire+FireWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805AF70521A79EC800FD4898 /* Alamofire+FireWrapper.swift */; };
+		805AF70A21A79EC800FD4898 /* Error+FireWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805AF70621A79EC800FD4898 /* Error+FireWrapper.swift */; };
+		8B875F5951DE76C9A798717F /* Pods_FireWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFE4C4BA85CE38F9D7F798E /* Pods_FireWrapper.framework */; };
+		EA5A5DE2F588F59FA92E17EB /* Pods_FireWrapperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770BE1305A49D1B526E391C9 /* Pods_FireWrapperTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +29,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56F4DFACDFC4ADA41B11F7A7 /* Pods-FireWrapperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireWrapperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireWrapperTests/Pods-FireWrapperTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BFE4C4BA85CE38F9D7F798E /* Pods_FireWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		770BE1305A49D1B526E391C9 /* Pods_FireWrapperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireWrapperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		805AF6E821A79B4600FD4898 /* FireWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FireWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		805AF6EB21A79B4600FD4898 /* FireWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FireWrapper.h; sourceTree = "<group>"; };
 		805AF6EC21A79B4600FD4898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		805AF6F121A79B4600FD4898 /* FireWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		805AF6F621A79B4600FD4898 /* FireWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireWrapperTests.swift; sourceTree = "<group>"; };
 		805AF6F821A79B4600FD4898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805AF70221A79EC800FD4898 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		805AF70321A79EC800FD4898 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		805AF70521A79EC800FD4898 /* Alamofire+FireWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+FireWrapper.swift"; sourceTree = "<group>"; };
+		805AF70621A79EC800FD4898 /* Error+FireWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+FireWrapper.swift"; sourceTree = "<group>"; };
+		AD2A4210E54DABCB5AB080D2 /* Pods-FireWrapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireWrapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireWrapper/Pods-FireWrapper.release.xcconfig"; sourceTree = "<group>"; };
+		F405E6DCD7DF7BFCAA7AC402 /* Pods-FireWrapperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireWrapperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireWrapperTests/Pods-FireWrapperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFDD2315EAB3C468B0DF63AF /* Pods-FireWrapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireWrapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireWrapper/Pods-FireWrapper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B875F5951DE76C9A798717F /* Pods_FireWrapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +61,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				805AF6F221A79B4600FD4898 /* FireWrapper.framework in Frameworks */,
+				EA5A5DE2F588F59FA92E17EB /* Pods_FireWrapperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		758503C04A5EE1EFEE6A96D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFDD2315EAB3C468B0DF63AF /* Pods-FireWrapper.debug.xcconfig */,
+				AD2A4210E54DABCB5AB080D2 /* Pods-FireWrapper.release.xcconfig */,
+				F405E6DCD7DF7BFCAA7AC402 /* Pods-FireWrapperTests.debug.xcconfig */,
+				56F4DFACDFC4ADA41B11F7A7 /* Pods-FireWrapperTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		805AF6DE21A79B4600FD4898 = {
 			isa = PBXGroup;
 			children = (
 				805AF6EA21A79B4600FD4898 /* FireWrapper */,
 				805AF6F521A79B4600FD4898 /* FireWrapperTests */,
 				805AF6E921A79B4600FD4898 /* Products */,
+				758503C04A5EE1EFEE6A96D9 /* Pods */,
+				BFAF46AEF3B088E72695E9DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +102,7 @@
 		805AF6EA21A79B4600FD4898 /* FireWrapper */ = {
 			isa = PBXGroup;
 			children = (
+				805AF70B21A79ECE00FD4898 /* Source */,
 				805AF6EB21A79B4600FD4898 /* FireWrapper.h */,
 				805AF6EC21A79B4600FD4898 /* Info.plist */,
 			);
@@ -84,6 +116,34 @@
 				805AF6F821A79B4600FD4898 /* Info.plist */,
 			);
 			path = FireWrapperTests;
+			sourceTree = "<group>";
+		};
+		805AF70421A79EC800FD4898 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				805AF70521A79EC800FD4898 /* Alamofire+FireWrapper.swift */,
+				805AF70621A79EC800FD4898 /* Error+FireWrapper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		805AF70B21A79ECE00FD4898 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				805AF70421A79EC800FD4898 /* Extensions */,
+				805AF70321A79EC800FD4898 /* NetworkHelper.swift */,
+				805AF70221A79EC800FD4898 /* Router.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		BFAF46AEF3B088E72695E9DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BFE4C4BA85CE38F9D7F798E /* Pods_FireWrapper.framework */,
+				770BE1305A49D1B526E391C9 /* Pods_FireWrapperTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +164,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 805AF6FC21A79B4600FD4898 /* Build configuration list for PBXNativeTarget "FireWrapper" */;
 			buildPhases = (
+				85D906AC8C1DB2B3CB5E88E8 /* [CP] Check Pods Manifest.lock */,
 				805AF6E321A79B4600FD4898 /* Headers */,
 				805AF6E421A79B4600FD4898 /* Sources */,
 				805AF6E521A79B4600FD4898 /* Frameworks */,
@@ -122,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 805AF6FF21A79B4600FD4898 /* Build configuration list for PBXNativeTarget "FireWrapperTests" */;
 			buildPhases = (
+				5B7A2F40D3AF929A4223F36E /* [CP] Check Pods Manifest.lock */,
 				805AF6ED21A79B4600FD4898 /* Sources */,
 				805AF6EE21A79B4600FD4898 /* Frameworks */,
 				805AF6EF21A79B4600FD4898 /* Resources */,
+				FB92CCB5BA52C4D043356C1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +211,7 @@
 				TargetAttributes = {
 					805AF6E721A79B4600FD4898 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					805AF6F021A79B4600FD4898 = {
 						CreatedOnToolsVersion = 10.1;
@@ -189,11 +253,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B7A2F40D3AF929A4223F36E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireWrapperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85D906AC8C1DB2B3CB5E88E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireWrapper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB92CCB5BA52C4D043356C1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FireWrapperTests/Pods-FireWrapperTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireWrapperTests/Pods-FireWrapperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		805AF6E421A79B4600FD4898 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				805AF70821A79EC800FD4898 /* NetworkHelper.swift in Sources */,
+				805AF70721A79EC800FD4898 /* Router.swift in Sources */,
+				805AF70A21A79EC800FD4898 /* Error+FireWrapper.swift in Sources */,
+				805AF70921A79EC800FD4898 /* Alamofire+FireWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +469,9 @@
 		};
 		805AF6FD21A79B4600FD4898 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFDD2315EAB3C468B0DF63AF /* Pods-FireWrapper.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -350,14 +481,16 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FireWrapper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sequenia.FireWrapper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sequenia.firewrapper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,7 +498,9 @@
 		};
 		805AF6FE21A79B4600FD4898 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD2A4210E54DABCB5AB080D2 /* Pods-FireWrapper.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -375,12 +510,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FireWrapper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sequenia.FireWrapper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sequenia.firewrapper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -390,7 +526,9 @@
 		};
 		805AF70021A79B4600FD4898 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F405E6DCD7DF7BFCAA7AC402 /* Pods-FireWrapperTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XJM4GSZPH;
 				INFOPLIST_FILE = FireWrapperTests/Info.plist;
@@ -408,7 +546,9 @@
 		};
 		805AF70121A79B4600FD4898 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F4DFACDFC4ADA41B11F7A7 /* Pods-FireWrapperTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XJM4GSZPH;
 				INFOPLIST_FILE = FireWrapperTests/Info.plist;
