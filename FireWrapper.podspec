@@ -66,7 +66,8 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/firedragon873/FireWrapper.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/firedragon873/FireWrapper.git" }
+#  , :tag => "#{s.version}"
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -78,7 +79,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files = "FireWrapper/Sources/**/*.{swift}"
-  s.public_header_files = "FireWrapper/**/*.h"
+  s.public_header_files = "FireWrapper/*.{h}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,11 +92,11 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   s.resources = "FireWrapper/Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
-  s.resource_bundles = {
-      'FireWrapper' => [
-        'FireWrapper/Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}'
-      ]
-  }
+#  s.resource_bundles = {
+#      'FireWrapper' => [
+#        'FireWrapper/Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}'
+#      ]
+#  }
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
