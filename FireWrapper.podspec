@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files = "FireWrapper/Sources/**/*.{swift}"
-  s.public_header_files = "FireWrapper/*.{h}"
+  s.public_header_files = "FireWrapper/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
