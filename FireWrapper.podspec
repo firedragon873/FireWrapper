@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   
   s.framework = "FireWrapper"
   s.source_files = "FireWrapper/Sources/**/*.{swift,h}"
-  s.public_header_files = "FireWrapper/*.h"
+#  s.public_header_files = "FireWrapper/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
