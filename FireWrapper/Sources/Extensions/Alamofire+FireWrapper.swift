@@ -54,7 +54,7 @@ extension DataRequest {
             
             guard response.result.isSuccess,
                 let value = response.result.value else {
-                    let message = response.result.error?.fw_errorMessage().rawValue ?? ErrorType.internalServer.rawValue
+                    let message = response.result.error?.fw_errorMessage().rawValue.fw_localized ?? ErrorType.internalServer.rawValue.fw_localized
                     
                     print("Request failed with error: \(String(describing: response.result.error))")
                     
@@ -65,7 +65,7 @@ extension DataRequest {
             let jsonResponse = JSON(value)
             
             guard jsonResponse[ResponseKey.success.rawValue].bool ?? false else {
-                let error = jsonResponse[ResponseKey.error.rawValue].string ?? ErrorType.internalServer.rawValue
+                let error = jsonResponse[ResponseKey.error.rawValue].string ?? ErrorType.internalServer.rawValue.fw_localized
                 
                 var errors: [String : String]? = nil
                 

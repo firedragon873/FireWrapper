@@ -93,13 +93,6 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   s.resources = "FireWrapper/Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
-#  s.resource_bundles = {
-#      'FireWrapper' => [
-#        'FireWrapper/Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}'
-#      ]
-#  }
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
