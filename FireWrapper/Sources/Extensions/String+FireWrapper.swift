@@ -12,8 +12,6 @@ extension String {
     
     public var fw_localized: String {
         let bundle = Bundle.init(for: NetworkHelper.self)
-        print("OLOLO")
-        print(bundle)
         let res =  bundle.localizedString(forKey: self, value: "", table: "FWLocalizable")
         return res
     }

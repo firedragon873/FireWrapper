@@ -30,7 +30,7 @@ extension Request {
 }
 
 extension DataRequest {
-    public func fw_responseJSON(isDebug: Bool = false, completion: (@escaping (_ data: JSON?, _ error: String?, _ errors: [String : String]?) -> Void )) {
+    public func fw_responseJSON(isDebug: Bool = false, completion: (@escaping (_ data: JSON?, _ error: String?, _ errors: [String : String]?, _ errorType: ErrorType?) -> Void )) {
         NetworkHelper.setActivityIndicatorVisibility(true)
         self.fw_debugLog(isDebug: isDebug).responseJSON { (response) in
             NetworkHelper.setActivityIndicatorVisibility(false)
@@ -54,28 +54,36 @@ extension DataRequest {
             
             guard response.result.isSuccess,
                 let value = response.result.value else {
-                    let message = response.result.error?.fw_errorMessage().rawValue.fw_localized ?? ErrorType.internalServer.rawValue.fw_localized
+                    let errorType = response.result.error?.fw_errorMessage() ?? ErrorType.internalServer
                     
                     print("Request failed with error: \(String(describing: response.result.error))")
                     
-                    completion(nil, message, nil)
+                    completion(nil, nil, nil, errorType)
                     return
             }
             
             let jsonResponse = JSON(value)
             
             guard jsonResponse[ResponseKey.success.rawValue].bool ?? false else {
-                let error = jsonResponse[ResponseKey.error.rawValue].string ?? ErrorType.internalServer.rawValue.fw_localized
+                var errorType: ErrorType?
+                var error: String?
+                
+                if let err = jsonResponse[ResponseKey.error.rawValue].string {
+                    error = err
+                }
+                else {
+                    errorType = ErrorType.internalServer
+                }
                 
                 var errors: [String : String]? = nil
                 
                 if let errs = jsonResponse[ResponseKey.errors.rawValue].dictionaryObject as? [String : String] {
                     errors = errs
                 }
-                completion(nil, error, errors)
+                completion(nil, error, errors, errorType)
                 return
             }
-            completion(JSON(jsonResponse[ResponseKey.data.rawValue].object), nil, nil)
+            completion(JSON(jsonResponse[ResponseKey.data.rawValue].object), nil, nil, nil)
         }
     }
 }

@@ -13,7 +13,6 @@
 		805AF71221A8055400FD4898 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805AF70D21A8055400FD4898 /* NetworkHelper.swift */; };
 		805AF71321A8055400FD4898 /* Alamofire+FireWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805AF70F21A8055400FD4898 /* Alamofire+FireWrapper.swift */; };
 		805AF71421A8055400FD4898 /* Error+FireWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805AF71021A8055400FD4898 /* Error+FireWrapper.swift */; };
-		805AF71B21A8134400FD4898 /* FWLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 805AF71D21A8134400FD4898 /* FWLocalizable.strings */; };
 		8B875F5951DE76C9A798717F /* Pods_FireWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFE4C4BA85CE38F9D7F798E /* Pods_FireWrapper.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +30,6 @@
 		805AF70D21A8055400FD4898 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		805AF70F21A8055400FD4898 /* Alamofire+FireWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+FireWrapper.swift"; sourceTree = "<group>"; };
 		805AF71021A8055400FD4898 /* Error+FireWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+FireWrapper.swift"; sourceTree = "<group>"; };
-		805AF71C21A8134400FD4898 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/FWLocalizable.strings; sourceTree = "<group>"; };
-		805AF71E21A8135200FD4898 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/FWLocalizable.strings; sourceTree = "<group>"; };
 		AD2A4210E54DABCB5AB080D2 /* Pods-FireWrapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireWrapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireWrapper/Pods-FireWrapper.release.xcconfig"; sourceTree = "<group>"; };
 		F405E6DCD7DF7BFCAA7AC402 /* Pods-FireWrapperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireWrapperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireWrapperTests/Pods-FireWrapperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FFDD2315EAB3C468B0DF63AF /* Pods-FireWrapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireWrapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireWrapper/Pods-FireWrapper.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,7 +120,6 @@
 		805AF71A21A80FCC00FD4898 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				805AF71D21A8134400FD4898 /* FWLocalizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -209,7 +205,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				805AF71B21A8134400FD4898 /* FWLocalizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,19 +245,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		805AF71D21A8134400FD4898 /* FWLocalizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				805AF71C21A8134400FD4898 /* en */,
-				805AF71E21A8135200FD4898 /* ru */,
-			);
-			name = FWLocalizable.strings;
-			path = FireWrapper/Resources;
-			sourceTree = SOURCE_ROOT;
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		805AF6FA21A79B4600FD4898 /* Debug */ = {

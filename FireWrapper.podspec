@@ -66,8 +66,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/firedragon873/FireWrapper.git" }
-#  , :tag => "#{s.version}"
+  s.source       = { :git => "https://github.com/firedragon873/FireWrapper.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +89,6 @@ Pod::Spec.new do |s|
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
   #
-
-  # s.resource  = "icon.png"
   s.resources = "FireWrapper/Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
